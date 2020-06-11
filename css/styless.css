@@ -1,0 +1,476 @@
+.nav-link{
+    color: white !important;
+}
+.navbar-brand img{
+    height: 40px !important;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+ /* .navbar::after{
+
+    background-color: #000;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: 0;
+    top: 100%;
+  width: 100% !important;
+} */
+/*
+.navbar::before{
+    background-color: #000;
+    content: "";
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 91%;
+    top: 0%;
+    transform: rotateX(180);
+    width: 1px !important;
+    transition: all;
+} */
+.nav-i i{
+    color: white !important;
+}
+.carousel-back{
+    background-image: url("../images/bg-image-28.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+   
+ 
+}
+.carousel-back2{
+    background-image: url("../images/bg-image-29.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.carousel-control-next1  {
+    position: absolute;
+    top: 56%;
+    left: -6%;
+    height: 20px;
+    
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+.carousel-control-prev1  {
+    position: absolute;
+    top: 50%;
+    left:1%;
+    height: 20px;
+
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+ 
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+.header-title h1{
+    font-size: 7rem;
+    font-weight: 800;
+    color: white;
+
+}
+.header-title h4{
+    color: white;
+}
+.button-home{
+    background-color: transparent !important;
+    border-color: white !important;
+}
+.button-home:hover{
+    color: black;
+    background-color: white !important;
+}
+#about{
+   position: relative;
+}
+#about:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #f1f1f1; 
+}
+#about h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+#about h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #787878;
+}
+.about-btn{
+    background-color: transparent;
+    font-size: 0.7rem;
+    border: solid #f1f1f1 1px;
+}
+.about-btn:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+#team h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem !important;
+    font-weight: 900;
+}
+#team h5{
+    color: #787878;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.team-photo{
+    position: relative;
+    overflow: hidden;
+}
+#team .team-hover{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(00, 150, 200, 0.5);
+    transition: ease 1s all;
+    
+
+}
+#team .team-photo:hover .team-hover{
+    top: 0;
+}
+#team a{
+    color: white;
+    transition: all 1s;
+}
+#team a:hover{
+    text-shadow:0 0 20px white ;
+}
+.team-hover-p{
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+    color: white;
+}
+#services{
+    background-image: url("../images/bg-image-26.jpg");
+    background-size: 100% 100%;
+    
+}
+.services-back{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#services .services-12{
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+#services .services-what{
+    color: white;
+}
+#services .services-what h2{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+#services .services-what p{
+    font-size: 1rem;
+}
+#services li{
+    list-style: none;
+}
+#services li i{
+    border: solid 2px;
+    border-radius: 50%;
+    font-size: 0.7 rem;
+}
+#services ul{
+    color: white;
+    font-size: 1rem;
+}
+#contacts iframe{
+    width: 100%;
+    height: 110vh;
+}
+.contact-title h2{
+    font-weight: 700;
+}
+.contact-title p{
+    color: #787878;
+}
+.form-control{
+    border-radius: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: black;
+}
+.last{
+    background-color: #00c3da;
+    border-color: #00c3da;
+    transition: all 1s;
+}
+.last:hover{
+    background-color: #00c3da;
+    border-color: #00c3da;
+}
+#pricing{
+    background-color: #f7f7f7;
+}
+.works-title h2{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+.works-title p{
+    color: #787878;
+}
+
+.works-boxes{
+    background-color: #f7f7f7;
+   
+}
+.works-boxes p span{
+    vertical-align: top;
+    font-size: 1rem;
+}
+.works-boxes .works-p{
+    font-size: 2.5rem;
+}
+.works-box-div {
+    background-color: white;
+    box-shadow:0 15px 30px rgba(0, 0, 0, 0.05);
+    padding: 0 1rem;
+}
+.works-box-div:hover{
+    box-shadow:0 0 65px rgba(0, 0, 0, 0.1);
+}
+.works-boxes p::after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 12.5%;
+    width: 75%;
+    height: 1px;
+    background-color: gray; 
+
+}
+.card-header span{
+    vertical-align: top;
+}
+.card-header{
+    font-size: 22px;
+}
+#contacts .row{
+    margin-right: 0px;
+}
+.our-client-img img{
+    opacity:0.7 ;
+}
+.our-client-img:hover img{
+    opacity: 1;
+}
+#last-one{
+    background-image: url("../images/dotted-map.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#last-one h6{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#last-one li{
+    list-style: none;
+    text-align: left;
+}
+#last-one h5{
+    text-align: left;
+}
+#last-one li a{
+    color: gray;
+    text-decoration: none;
+}
+#last-one a:hover{
+    color: #09c;
+}
+#last-one ul{
+    padding-inline-start: 0;
+}
+.display-inline{
+    display: flex;
+    flex: wrap;
+}
+.display-inline button:hover{
+    background-color: #00c3da;
+    border-color: #00c3da;
+}
+.last-a a{
+    color: gray;
+}
+.last-a a:hover{
+    color: #00c3da;
+}
+#counter{
+    background-color: #1f1f1f;
+}
+.counter-title{
+    color: white;
+}
+.counter-title h3{
+    font-weight: 700;
+}
+.counter-title h4{
+    font-weight: 300;
+    
+}
+.counter-after::after{
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    width: 1px;
+    height: 100px;
+    background-color: #f1f1f1;
+    
+}
+.nav-tabs a{
+    text-decoration: none;
+}
+#home-tab ,#profile-tab , #contact-tab{
+    color: black !important;
+}
+.mission-button{
+    border-color: black;
+}
+.nav-color a{
+    color: black !important;
+}
+.card-img-x{
+    background-color: white;
+    color: brown;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    right: 30px;
+    transition: all 1s ;
+    transition-duration: 1s;
+    display: none;
+} 
+.card-img-x h5{
+    color: #002147;
+
+}
+.card-img-x p{
+    color: gray;
+
+}
+.img-hover{
+    overflow: hidden;
+    transition: all 3s;
+    transition-duration: 3s;
+}
+.img-hover:hover .card-img-x{
+display: block;
+}
+.img-hover:hover img{
+    transform: scale(1.1,1.1);
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    /* background-color: #0062cc; */
+    /* border-color: #005cbf; */
+}
+.mission .row{
+ 
+    margin-right: 0px;
+}
+.gold{
+    color: #00c3da;
+}
+.small{
+    color: white;
+    background-color: #00c3da;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    padding: 1px 1px;
+    float: right;
+}
+.contact-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow:0 0 10px gray ;
+}
+.happy{
+    background-color: #f1f1f1;
+}
+.happy-mark{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+.loading{
+    background-color: #dfe1e5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    overflow: hidden;
+}
+.fa-spin{
+    color: #00c3da !important;
+}
+
+
+ body::-webkit-scrollbar {
+    width: 12px;     
+    
+  }
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1;        /* color of the tracking area */
+    border-radius: 1px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #00c3da;  
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid  #f1f1f1;  /* creates padding around scroll thumb */
+  }
+
+  .back-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #00c3da;
+   
+}
