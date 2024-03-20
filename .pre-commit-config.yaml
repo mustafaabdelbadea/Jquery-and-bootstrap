@@ -6,3 +6,11 @@ repos:
     -   id: end-of-file-fixer
     -   id: check-yaml
     -   id: check-added-large-files
+
+-   repo: local
+    hooks:
+    -   id: test
+        name: Test hooks
+        description: Test custom scripts and hooks
+        entry: pre_commit_hooks/test.sh
+        language: script

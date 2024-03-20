@@ -1,0 +1,5 @@
+- id: test
+  name: Test hooks
+  description: Test custom scripts and hooks
+  entry: pre_commit_hooks/test.sh
+  language: script
